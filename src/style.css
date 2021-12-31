@@ -1,0 +1,68 @@
+
+.text{
+    color: rgb(128, 128, 128);
+    font-size: 20px;
+}
+
+/*Products and Portfolio card*/
+#cards{
+    background-color: rgb(207, 207, 207);
+    height: 340pt;
+    padding: 0 50pt;
+}
+/* End */
+
+/*Services card*/
+#small_card{
+    background: rgb(241, 241, 241);
+    
+}
+/*Services End*/
+
+
+@media screen and (max-width: 1000px) {
+    #cards{
+        background-color: rgb(207, 207, 207);
+        height: 140pt;
+        padding: 0 50pt;
+    }
+}
+
+
+/* Footer */
+
+#Footer{
+    color: #686868;
+    background: #f3f3f3;
+    position: absolute;
+    left:0; 
+    right:0;
+    
+}
+
+#Link{
+    color: rgb(48, 48, 48);
+    font-size: 15pt;
+}
+
+.footer_nav{
+    border-top: 1pt solid rgb(185, 185, 185); padding-top: 10pt; padding-bottom: 10pt; background: #fafafa;
+}
+
+button{
+    color: white;
+    padding: 10pt 20pt;
+    border-radius: 24pt;
+    border: none;
+    background: #9b00fb;
+    margin-left:0pt;
+}
+
+#inputbox{
+    width:300pt;
+    padding: 10pt 20pt;
+    border: none;
+    
+}
+
+/* Footer End */
