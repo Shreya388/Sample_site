@@ -1,28 +1,36 @@
 import React from "react";
 import { Container, Col, Row, Card } from "react-bootstrap";
 import "./style.css";
+import c from "./images/cards/c.jpg";
+import b from "./images/cards/b.jpg";
+import a from "./images/cards/a.jpg";
 
 const Cards = (props) => {
     return ( 
-            <Col className="mt-4">
-                
-                <Card id="cards">
+            
+                <Card id="cards" style={{height: "100pt", margin:"60pt 0pt"}}>
+                    <img className="card-image" alt={props.alt} src={props.img} />
                 </Card>
-            </Col>
      );
 }
  
 const Portfolio = () => {
     return ( 
         <>
-            <div class="portfolio mt-4">
+            <div id="Portfolio" class="portfolio" style={{padding: "100pt 0pt", marginTop: "200pt"}}>
                 <Container>
                     <h1 className="text">Lorem ipsum dolor sit amet</h1>
-                    <h1 className="display-6">Portfolio/ Case Studios</h1>
-                <Row>
-                    <Cards />
-                    <Cards />
-                    <Cards />
+                    <h1 className="display-6">Portfolio</h1>
+                <Row className="mt-4">
+                    <Col md={4}>
+                    <Cards img={b} />
+                    </Col>
+                    <Col md={4}>
+                    <Cards img={a} />
+                    </Col>
+                    <Col md={4}>
+                    <Cards img={c} />
+                    </Col>
                 </Row>
                 </Container>
             </div>
