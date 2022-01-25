@@ -1,0 +1,20 @@
+#Contact{
+    background: black;
+    margin-top: 200pt;
+    height: 600pt;
+}
+
+#cont_contain{
+    max-width: 550pt; margin-top: 200pt; padding: 100pt 100pt; color: white;
+}
+
+#boxes{
+    max-width: 700pt;
+    margin-top: 0pt;
+}
+
+#textBox{
+    border: 1pt solid #c9c7c7c0;
+    font-size: 13pt;
+    box-shadow: 1pt 1pt 1pt #e5e5e5;
+}

@@ -1,0 +1,11 @@
+#footer{
+    background: #141414; color: white
+}
+
+#footer_content{
+    background: #242424; padding: 50pt 0; color: white; margin: 50pt 0pt;
+}
+
+.footerLink {
+    color: #444444; font-size: 11pt;
+}

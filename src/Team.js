@@ -3,6 +3,7 @@ import { Col, Row, Container, ProgressBar } from "react-bootstrap";
 import c from "./images/team/c.jpg";
 import b from "./images/team/b.jpg";
 import a from "./images/team/a.jpg";
+import "./Team.css";
 
 const Items = (props) => {
     return (
@@ -12,7 +13,7 @@ const Items = (props) => {
 
                         <Container className="mt-4 text-white">
                             <h1 className="navbar-brand">{props.name}</h1>
-                            <p><small>{props.text}</small></p>
+                            <p><p>{props.text}</p></p>
                         </Container>
             </Container>
         </div>
@@ -22,8 +23,8 @@ const Items = (props) => {
 const Team = () => {
     return (
         <>
-        <button className="btn-dark butt mr-auto ml-4">Our Hardworking Team</button>
-        <div id="Team" className="team" style={{ padding: "10pt 10pt"}}>
+        <button id="Team" className="btn-dark butt mr-auto ml-4">Our Hardworking Team</button>
+        <div className="team" style={{ padding: "10pt 10pt"}}>
             
             <Container>
             <Row>
@@ -41,13 +42,18 @@ const Team = () => {
             </Row>
             </Container>
 
+        
+
+        </div>
+
+        <div className="col-md-12" style={{background: "rgb(247 247 247 / 98%)", padding: "80pt 0pt"}}>
         <Container style={{maxWidth: "800pt", marginTop: "100pt"}}>
             
             <Row>
             <Col md="7">
                 <Container className="mt-4" style={{borderRadius: "20pt"}}>
                     <h1 className="display-6">What We Do</h1>
-                    <small className="">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here</small>
+                    <p className="">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here</p>
 
                 </Container>
                 <button className="butt mt-4">Design</button>
@@ -58,14 +64,14 @@ const Team = () => {
 
                 <Col md="5">
                 <Container className="mt-4" style={{ textAlign: "left"}}>
-                    <small>Design</small>
-                    <ProgressBar variant="dark" now={80} style={{height: "3pt"}} /><br />
-                    <small>Marketing</small>
-                    <ProgressBar variant="dark" now={50} style={{height: "3pt"}} /><br />
-                    <small>Development</small>
-                    <ProgressBar variant="dark" now={75} style={{height: "3pt"}} /><br />
-                    <small>Photography</small>
-                    <ProgressBar variant="dark" now={86} style={{height: "3pt"}} />
+                    <p>Design</p>
+                    <ProgressBar id="progress" now={80} /><br />
+                    <p>Marketing</p>
+                    <ProgressBar id="progress" now={50} /><br />
+                    <p>Development</p>
+                    <ProgressBar id="progress" now={75} /><br />
+                    <p>Photography</p>
+                    <ProgressBar id="progress" now={86} />
                 </Container>
                 </Col>
             </Row>

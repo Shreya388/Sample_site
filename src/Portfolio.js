@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Col, Row, Card } from "react-bootstrap";
 import "./style.css";
+import "./Portfolio.css";
 import c from "./images/cards/c.jpg";
 import b from "./images/cards/b.jpg";
 import a from "./images/cards/a.jpg";
@@ -8,7 +9,7 @@ import a from "./images/cards/a.jpg";
 const Cards = (props) => {
     return ( 
             
-                <Card id="cards" style={{height: "100pt", margin:"60pt 0pt"}}>
+                <Card id="cards">
                     <img className="card-image" alt={props.alt} src={props.img} />
                 </Card>
      );
@@ -17,7 +18,7 @@ const Cards = (props) => {
 const Portfolio = () => {
     return ( 
         <>
-            <div id="Portfolio" class="portfolio" style={{padding: "100pt 0pt", marginTop: "200pt"}}>
+            <div id="Portfolio" class="portfolio">
                 <Container>
                     <h1 className="text">Lorem ipsum dolor sit amet</h1>
                     <h1 className="display-6">Portfolio</h1>

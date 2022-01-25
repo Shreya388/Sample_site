@@ -19,9 +19,17 @@
 
 @media screen and (max-width: 1000px) {
     
+} 
+
+.inputBox{
+    background: white;
+    padding: 7pt 7pt;
+    
 }
 
-
+p{
+    font-size: 14px;
+}
 /* Footer */
 
 #Footer{
@@ -47,12 +55,7 @@
     margin: 5pt;
 }
 
-#inputbox{
-    width:300pt;
-    padding: 10pt 20pt;
-    border: none;
-    
-}
+
 
 /* Footer End */
 

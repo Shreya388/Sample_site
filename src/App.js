@@ -6,6 +6,7 @@ import Services from './Services';
 import Products from './Products';
 import Team from './Team.js';
 import Footer from "./Footer";
+import Contact from "./Contact";
 // bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -18,7 +19,7 @@ function App() {
       <Team />
       <Services />
       <Portfolio />
-      
+      <Contact />
       <Footer />
     </div>
   );

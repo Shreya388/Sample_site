@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Nav, Row, Col } from "react-bootstrap";
 import "./style.css";
+import "./Footer.css";
 
 const Section = (props) => {
   return (
@@ -16,9 +17,9 @@ const Section = (props) => {
 
 const Footer = () => {
   return (
-    <div>
+    <div id="footer">
 
-      <div style={{ background: "#242424", padding: "50pt 0", color: "white", margin: "50pt 0pt" }}>
+      <div id="footer_content">
         <Container>
           <Row>
             <Col>
@@ -58,8 +59,8 @@ const Footer = () => {
         </Container>
       </div>
 
-      <div className="footer_nav" style={{}}>
-        <Nav.Link style={{ color: "#444444", fontSize: "11pt" }}>Copyright 2020</Nav.Link>
+      <div className="footer_nav">
+        <Nav.Link className="footerLink">Copyright 2020</Nav.Link>
       </div>
     </div>
   );
