@@ -6,15 +6,6 @@
 
 /*Products and Portfolio card*/
 
-/* End */
-
-/*Services card*/
-#small_card{
-    background: rgb(241, 241, 241);
-    height:20pt;
-    margin-top:100pt;
-}
-/*Services End*/
 
 
 @media screen and (max-width: 1000px) {
@@ -24,7 +15,6 @@
 .inputBox{
     background: white;
     padding: 7pt 7pt;
-    
 }
 
 p{
@@ -38,20 +28,11 @@ p{
 
 }
 
-#Link{
-    color: rgb(240, 240, 240);
-    font-size: 15pt;
-}
-
-.footer_nav{
-    border-top: 1pt solid rgb(20, 20, 20); padding-top: 10pt; padding-bottom: 10pt; background: #16161627; 
-}
-
 .butt{
     color: white;
     padding: 10pt 20pt;
     border: none;
-    background: #9b00fb;
+    background: #a134e9;
     margin: 5pt;
 }
 
@@ -61,4 +42,8 @@ p{
 
 .Card{
     margin: 100pt 100pt;
+}
+
+.container-fluid{
+    max-width: 800pt;
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Col, Row, Card } from "react-bootstrap";
+import { Col, Row, Card } from "react-bootstrap";
 import "./style.css";
 import "./Portfolio.css";
 import c from "./images/cards/c.jpg";
@@ -19,10 +19,9 @@ const Portfolio = () => {
     return ( 
         <>
             <div id="Portfolio" class="portfolio">
-                <Container>
-                    <h1 className="text">Lorem ipsum dolor sit amet</h1>
+                <div className="container-fluid">
                     <h1 className="display-6">Portfolio</h1>
-                <Row className="mt-4">
+                <Row className="">
                     <Col md={4}>
                     <Cards img={b} />
                     </Col>
@@ -33,7 +32,7 @@ const Portfolio = () => {
                     <Cards img={c} />
                     </Col>
                 </Row>
-                </Container>
+                </div>
             </div>
         </>
      );

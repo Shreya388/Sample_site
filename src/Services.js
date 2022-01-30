@@ -1,6 +1,7 @@
 import React from "react";
-import { Container, Col, Row, Card} from "react-bootstrap";
+import { Col, Row, Card} from "react-bootstrap";
 import "./style.css";
+import "./Services.css";
 import one from "./images/cards/one.jpg";
 import two from "./images/cards/two.jpg";
 import three from "./images/cards/three.jpg";
@@ -21,9 +22,9 @@ const Cards = (props) => {
  
 const Services = () => {
     return ( 
-        <div id="Services" style={{padding: "100pt 0pt"}}>
+        <div id="Services" style={{padding: "100pt 0pt", height: "550pt"}}>
             <div class="services">
-                <Container>
+                <div className="container-fluid">
                     <h1 className="text">Lorem ipsum dolor sit amet</h1>
                     <h1 className="display-6">Services</h1>
                 <Row>
@@ -37,7 +38,7 @@ const Services = () => {
                         <Cards img={three} title="Webhosting" para="Sed ut perspiciatis unde omnis iste natus error" />
                     </Col>
                 </Row>
-                </Container>
+                </div>
             </div>
             </div>
      );

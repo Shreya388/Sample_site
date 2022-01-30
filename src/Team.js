@@ -7,7 +7,7 @@ import "./Team.css";
 
 const Items = (props) => {
     return (
-        <div style={{marginTop: "50pt", background: "#9b00fb", padding: "40pt", borderRadius: "10pt"}}>
+        <div style={{marginTop: "50pt", background: "#9b00fb", padding: "40pt", borderRadius: "0"}}>
             <Container>
                         <img alt={props.alt} src={props.img} style={{ borderRadius: "70pt" }} />
 
@@ -23,7 +23,7 @@ const Items = (props) => {
 const Team = () => {
     return (
         <>
-        <button id="Team" className="btn-dark butt mr-auto ml-4">Our Hardworking Team</button>
+        <button id="Team" className="btn-dark butt mr-auto ml-4 mt-4">Our Hardworking Team</button>
         <div className="team" style={{ padding: "10pt 10pt"}}>
             
             <Container>
@@ -46,7 +46,7 @@ const Team = () => {
 
         </div>
 
-        <div className="col-md-12" style={{background: "rgb(247 247 247 / 98%)", padding: "80pt 0pt"}}>
+        <div className="col-md-12" style={{background: "rgb(245 245 245 / 43%)", padding: "80pt 0pt"}}>
         <Container style={{maxWidth: "800pt", marginTop: "100pt"}}>
             
             <Row>
@@ -65,13 +65,13 @@ const Team = () => {
                 <Col md="5">
                 <Container className="mt-4" style={{ textAlign: "left"}}>
                     <p>Design</p>
-                    <ProgressBar id="progress" now={80} /><br />
+                    <ProgressBar variant="dark" id="progress" now={80} /><br />
                     <p>Marketing</p>
-                    <ProgressBar id="progress" now={50} /><br />
+                    <ProgressBar variant="dark" id="progress" now={50} /><br />
                     <p>Development</p>
-                    <ProgressBar id="progress" now={75} /><br />
+                    <ProgressBar variant="dark" id="progress" now={75} /><br />
                     <p>Photography</p>
-                    <ProgressBar id="progress" now={86} />
+                    <ProgressBar variant="dark" id="progress" now={86} />
                 </Container>
                 </Col>
             </Row>

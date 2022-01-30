@@ -28,7 +28,7 @@ const Contact = () => {
                     </Col>
                 </Row>
 
-                <textarea class="form-control mt-4" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea class="form-control mt-4" id="textArea" rows="3" placeholder="Say Something.."></textarea>
 
                 <button className="butt">Submit</button>
             </Container>

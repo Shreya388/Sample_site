@@ -20,14 +20,14 @@ const Footer = () => {
     <div id="footer">
 
       <div id="footer_content">
-        <Container>
+        <Container id="container-fluid">
           <Row>
             <Col>
               <h1 className="navbar-brand text-left">Let's Discuss</h1>
               <p><small>sit voluptatem accusantium doloremque laudantium</small></p>
             </Col>
             <Col>
-              <input type="text" id="inputbox" />
+              <input type="text" className="textbox" />
               <button className="butt">Sign Up</button>
             </Col>
           </Row>
@@ -52,7 +52,7 @@ const Footer = () => {
             </Col>
 
             <Col md="6" className="">
-              <h1 className="display-5 text-left">Quoto</h1>
+              <h1 className="display-5 text-left">Logo</h1>
               <p>sit voluptatem accusantium<br /> doloremque laudantium</p>
             </Col>
           </Row>
@@ -60,7 +60,7 @@ const Footer = () => {
       </div>
 
       <div className="footer_nav">
-        <Nav.Link className="footerLink">Copyright 2020</Nav.Link>
+        <a className="footerLink" href="#Footer">Copyright 2020</a>
       </div>
     </div>
   );

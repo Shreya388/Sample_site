@@ -1,12 +1,12 @@
 /* Navbar section */
 .topBar{
-    background: rgba(255, 255, 255, 0.945);
-    border-bottom:1pt solid rgb(226, 226, 226);
+    background: rgba(255, 255, 255, 0.966);
+    border-bottom:1pt solid rgba(95, 95, 95, 0.158);
 }
 
 #ul{
     margin-left: 500px;
-    padding: 5pt 0;
+    padding: 7pt 0;
 }
 
 @media screen and (max-width: 1000px) {
@@ -29,30 +29,28 @@
     color:#7641d8;
     padding: 10pt 10pt;
     text-decoration: none;
-    font-weight: thin;
-    font-size: 10pt;    
-    font-family: cursive;
+    font-size: 11pt;
 }
 .link {
     color:rgb(34, 34, 34);
     padding: 10pt 10pt;
     text-decoration: none;
+    font-size: 11pt;
     font-weight: regular;
-    font-size: 10pt;
-    font-family: cursive;
 }
+
 
 .link:hover{
     color:#7641d8;
 }
-/* Navbar section end */
+
 
 /*cover section */
 
 .cover{
-    background-image: url(images/cover/cover3.jpg);
-    padding: 160px 0 ;
-    background-position: top;
+    background-image: url(images/cover/cover5.jpg);
+    padding: 140px 0 ;
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
     text-align: right;
@@ -67,3 +65,20 @@
     border: none;
     background: #9b00fb;
 }
+
+
+@media screen and (max-width: 1000px) {
+    .cover{
+        background: rgb(26, 26, 26);
+        color:white;
+        padding: 120px 0 ;
+        background-position: bottom;
+        background-size: cover;
+        background-attachment: fixed;
+        text-align: center;
+    }
+
+    
+
+
+} 

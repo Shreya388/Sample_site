@@ -29,9 +29,9 @@ const Header = () => {
 
             {/*Cover section */}
             <div id="Header" className="cover">
-                <Container>
-                    <h1 className="display-6">Beautiful.<br />Trendy.<br /> Elegant Design.<br /></h1>    
-                </Container>    
+                <div className="container-fluid">
+                    <h1 className="display-6" id="heading">Beautiful.<br />Trendy.<br /> Elegant Design.<br /></h1>    
+                </div>    
             </div>
 
 
