@@ -1,12 +1,11 @@
 import React from "react";
 import { Container, Nav, Row, Col } from "react-bootstrap";
-import "./style.css";
-import "./Footer.css";
+import "./css/Footer.css";
 
 const Section = (props) => {
   return (
     <div>
-      <h4>{props.tag}</h4>
+      <p className="navbar-brand">{props.tag}</p>
       <Nav.Link id="Link" href="#fd"><small>{props.link}</small></Nav.Link>
       <Nav.Link id="Link" href="#fsd"><small>{props.link2}</small></Nav.Link>
       <Nav.Link id="Link" href="#fsdsd"><small>{props.link3}</small></Nav.Link>
@@ -28,33 +27,38 @@ const Footer = () => {
             </Col>
             <Col>
               <input type="text" className="textbox" />
-              <button className="butt">Sign Up</button>
+              <button className="butt">+</button>
             </Col>
           </Row>
         </Container>
       </div>
 
-      <div className="Footer" style={{ paddingTop: "0pt", paddingBottom: "70pt"}}>
+      <div className="Footer" style={{ paddingTop: "0pt", paddingBottom: "70pt" }}>
         <Container>
           <Row>
 
-            <Col md="3" className="">
-              <Section link="Events" link2="Contact" link3="Mentors" />
-            </Col>
-            <Col md="3" className="mt-4">
-              <div>
-                <small>
-                  <p>Daya Niwas, 137 S K Bole Road</p>
-                  <p>Random@gmail.com</p>
-                  <p>+91 *******</p>
-                </small>
-              </div>
+            <Col md="4" className="">
+              <h1 className="display-6 text-left">Sample</h1>
+              <p>sit voluptatem accusantium<br /> doloremque laudantium</p>
+              <small>
+                <p>Daya Niwas, 137 S K Bole Road</p>
+                <p>+91 *******</p>
+              </small>
             </Col>
 
-            <Col md="6" className="">
-              <h1 className="display-5 text-left">Logo</h1>
-              <p>sit voluptatem accusantium<br /> doloremque laudantium</p>
+            <Col md="2" className="">
+              <Section link="Events" link2="Contact" link3="Mentors" tag="Services" />
             </Col>
+
+            <Col md="2" className="">
+              <Section link="Events" link2="Contact" link3="Mentors" tag="Products" />
+            </Col>
+
+            <Col md="2" className="">
+              <Section link="Events" link2="Contact" link3="Mentors" tag="Contact" />
+            </Col>
+
+
           </Row>
         </Container>
       </div>

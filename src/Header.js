@@ -30,8 +30,8 @@ const Header = () => {
             {/*Cover section */}
             <div id="Header" className="cover">
                 <div className="container-fluid">
-                    <h1 className="display-6" id="heading">Beautiful.<br />Trendy.<br /> Elegant Design.<br /></h1>    
-                </div>    
+                    <h1 className="display-6" id="heading">Beautiful.<br />Trendy.<br /> Elegant Design.<br /></h1>
+                </div>
             </div>
 
 

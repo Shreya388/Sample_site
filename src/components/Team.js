@@ -1,13 +1,13 @@
 import React from "react";
 import { Col, Row, Container, ProgressBar } from "react-bootstrap";
-import c from "./images/team/c.jpg";
-import b from "./images/team/b.jpg";
-import a from "./images/team/a.jpg";
-import "./Team.css";
+import c from "./css/images/team/c.jpg";
+import b from "./css/images/team/b.jpg";
+import a from "./css/images/team/a.jpg";
+import "./css/Team.css";
 
 const Items = (props) => {
     return (
-        <div style={{marginTop: "50pt", background: "#9b00fb", padding: "40pt", borderRadius: "0"}}>
+        <div id="card" style={{ background: "black", padding: "40pt", borderRadius: "0"}}>
             <Container>
                         <img alt={props.alt} src={props.img} style={{ borderRadius: "70pt" }} />
 
@@ -23,21 +23,22 @@ const Items = (props) => {
 const Team = () => {
     return (
         <>
+        <br /><br /><br /><br /><br /><br /><br /><br />
         <button id="Team" className="btn-dark butt mr-auto ml-4 mt-4">Our Hardworking Team</button>
         <div className="team" style={{ padding: "10pt 10pt"}}>
             
             <Container>
             <Row>
                 <Col md="4">
-                <Items img={a} name="Jain Smith" text="lorem ipsum dolor sit amet" />
+                <Items img={a} name="Jane Smith" text="CEO" />
                 </Col>
 
                 <Col md="4">
-                <Items img={b} name="Jain Smith" text="lorem ipsum dolor sit amet" />
+                <Items img={b} name="Adam Smidt" text="Founder of This Company" />
                 </Col>
                 
                 <Col md="4">
-                <Items img={c} name="Jain Smith" text="lorem ipsum dolor sit amet" />
+                <Items img={c} name="Steve Laurence" text="Manager" />
                 </Col>
             </Row>
             </Container>
@@ -46,8 +47,8 @@ const Team = () => {
 
         </div>
 
-        <div className="col-md-12" style={{background: "rgb(245 245 245 / 43%)", padding: "80pt 0pt"}}>
-        <Container style={{maxWidth: "800pt", marginTop: "100pt"}}>
+        <div className="col-md-12" style={{background: "rgb(245 245 245 / 83%)", padding:"100pt 0"}}>
+        <Container style={{maxWidth: "800pt"}}>
             
             <Row>
             <Col md="7">

@@ -1,7 +1,7 @@
 /* Navbar section */
 .topBar{
-    background: rgba(255, 255, 255, 0.966);
-    border-bottom:1pt solid rgba(95, 95, 95, 0.158);
+    background: rgb(255, 255, 255);
+    border-bottom:1pt solid rgb(241, 241, 241);
 }
 
 #ul{
@@ -48,12 +48,12 @@
 /*cover section */
 
 .cover{
-    background-image: url(images/cover/cover5.jpg);
+    background-image: url(components/css/images/cover4.jpg);
     padding: 140px 0 ;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    text-align: right;
+    text-align: left;
 }
 
 
@@ -69,8 +69,7 @@
 
 @media screen and (max-width: 1000px) {
     .cover{
-        background: rgb(26, 26, 26);
-        color:white;
+        background-image: url(components/css/images/cover4.jpg);
         padding: 120px 0 ;
         background-position: bottom;
         background-size: cover;
