@@ -7,7 +7,7 @@ import "./css/Team.css";
 
 const Items = (props) => {
     return (
-        <div id="card" style={{ background: "black", padding: "40pt", borderRadius: "0"}}>
+        <div id="card" style={{ background: "black", padding: "150pt 40pt", borderRadius: "0"}}>
             <Container>
                         <img alt={props.alt} src={props.img} style={{ borderRadius: "70pt" }} />
 

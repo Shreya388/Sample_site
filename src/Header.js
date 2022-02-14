@@ -8,7 +8,7 @@ const Header = () => {
             {/* Navbar section */}
             <Navbar className="fixed-top topBar text-center" variant="light" expand="lg">
                 <Container>
-                    <Navbar.Brand href="#home">Logo</Navbar.Brand>
+                    <Navbar.Brand href="#home">SAMPLE</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" style={{ border: "none", color: 'white' }} />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto" id="ul">
@@ -30,7 +30,7 @@ const Header = () => {
             {/*Cover section */}
             <div id="Header" className="cover">
                 <div className="container-fluid">
-                    <h1 className="display-6" id="heading">Beautiful.<br />Trendy.<br /> Elegant Design.<br /></h1>
+                    <h1 className="display-3" id="heading"><h1 className="display-2">Beautiful.</h1><b>Trendy.</b><br />Elegant Design.<br /></h1>
                 </div>
             </div>
 

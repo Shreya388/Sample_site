@@ -22,7 +22,7 @@ const Footer = () => {
         <Container id="container-fluid">
           <Row>
             <Col>
-              <h1 className="navbar-brand text-left">Let's Discuss</h1>
+              <h1 className="display-6 text-left">Get Our News Letter</h1>
               <p><small>sit voluptatem accusantium doloremque laudantium</small></p>
             </Col>
             <Col>
@@ -38,7 +38,7 @@ const Footer = () => {
           <Row>
 
             <Col md="4" className="">
-              <h1 className="display-6 text-left">Sample</h1>
+              <h1 className="display-6 text-left">SAMPLE</h1>
               <p>sit voluptatem accusantium<br /> doloremque laudantium</p>
               <small>
                 <p>Daya Niwas, 137 S K Bole Road</p>

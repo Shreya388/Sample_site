@@ -4,6 +4,7 @@ import Header from "./Header";
 import Portfolio from "./components/Portfolio";
 import Services from './components/Services';
 import Products from './components/Products';
+import Pricing from "./components/Pricing";
 import Team from './components/Team.js';
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
@@ -17,6 +18,7 @@ function App() {
       <Header />
       <Products />
       <Team />
+      <Pricing />
       <Services />
       <Portfolio />
       <Contact />

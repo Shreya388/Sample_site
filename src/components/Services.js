@@ -29,13 +29,13 @@ const Services = () => {
                     <h1 className="display-6">Services</h1>
                     <Row>
                         <Col md={4}>
-                            <Cards img={one} title="Design" para="totam rem aperiam, eaque ipsa quae ab illo" />
+                            <Cards img={one} title="Design" para="totam rem aperiam, eaque ipsa quae ab illoconsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco" />
                         </Col>
                         <Col md={4}>
-                            <Cards img={two} title="On Demand Devs" para="sit voluptatem accusantium doloremque laudantium" />
+                            <Cards img={two} title="On Demand Devs" para=" laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  laudantium, totam laudantium, totam laudantium, totam" />
                         </Col>
                         <Col md={4}>
-                            <Cards img={three} title="Webhosting" para="Sed ut perspiciatis unde omnis iste natus error" />
+                            <Cards img={three} title="Webhosting" para="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae" />
                         </Col>
                     </Row>
                 </div>
