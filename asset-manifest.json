@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/bug-free-barnacle/static/css/main.b6e596a8.css",
-    "main.js": "/bug-free-barnacle/static/js/main.3b6079a4.js",
-    "static/js/787.b4e3a890.chunk.js": "/bug-free-barnacle/static/js/787.b4e3a890.chunk.js",
-    "static/media/cover4.jpg": "/bug-free-barnacle/static/media/cover4.c45d2f104c4b2646fb75.jpg",
-    "static/media/a.jpg": "/bug-free-barnacle/static/media/a.b672bdf4df35c8686b3c.jpg",
-    "static/media/b.jpg": "/bug-free-barnacle/static/media/b.32e8ec20a0e9171f542f.jpg",
-    "static/media/three.jpg": "/bug-free-barnacle/static/media/three.52141f712cce6423ffe0.jpg",
-    "static/media/one.jpg": "/bug-free-barnacle/static/media/one.6e916d213f94f00a150f.jpg",
-    "static/media/c.jpg": "/bug-free-barnacle/static/media/c.f6626716a05caff70630.jpg",
-    "static/media/two.jpg": "/bug-free-barnacle/static/media/two.fb234b856e5f2b38a6f7.jpg",
-    "index.html": "/bug-free-barnacle/index.html",
-    "main.b6e596a8.css.map": "/bug-free-barnacle/static/css/main.b6e596a8.css.map",
-    "main.3b6079a4.js.map": "/bug-free-barnacle/static/js/main.3b6079a4.js.map",
-    "787.b4e3a890.chunk.js.map": "/bug-free-barnacle/static/js/787.b4e3a890.chunk.js.map"
+    "main.css": "/Sample_site/static/css/main.0fe6da5f.css",
+    "main.js": "/Sample_site/static/js/main.d80d2512.js",
+    "static/js/787.b4e3a890.chunk.js": "/Sample_site/static/js/787.b4e3a890.chunk.js",
+    "static/media/cover4.jpg": "/Sample_site/static/media/cover4.c45d2f104c4b2646fb75.jpg",
+    "static/media/a.jpg": "/Sample_site/static/media/a.b672bdf4df35c8686b3c.jpg",
+    "static/media/b.jpg": "/Sample_site/static/media/b.32e8ec20a0e9171f542f.jpg",
+    "static/media/three.jpg": "/Sample_site/static/media/three.52141f712cce6423ffe0.jpg",
+    "static/media/one.jpg": "/Sample_site/static/media/one.6e916d213f94f00a150f.jpg",
+    "static/media/c.jpg": "/Sample_site/static/media/c.f6626716a05caff70630.jpg",
+    "static/media/two.jpg": "/Sample_site/static/media/two.fb234b856e5f2b38a6f7.jpg",
+    "index.html": "/Sample_site/index.html",
+    "main.0fe6da5f.css.map": "/Sample_site/static/css/main.0fe6da5f.css.map",
+    "main.d80d2512.js.map": "/Sample_site/static/js/main.d80d2512.js.map",
+    "787.b4e3a890.chunk.js.map": "/Sample_site/static/js/787.b4e3a890.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6e596a8.css",
-    "static/js/main.3b6079a4.js"
+    "static/css/main.0fe6da5f.css",
+    "static/js/main.d80d2512.js"
   ]
 }
