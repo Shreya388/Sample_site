@@ -1,11 +1,19 @@
 import React from "react";
 import { Col, Row, Container, ProgressBar } from "react-bootstrap";
+import { useInView } from "react-intersection-observer";
+import { motion } from "framer-motion";
+import { useEffect } from "react";
+import { useAnimation } from "framer-motion";
+
 import c from "./css/images/team/c.jpg";
 import b from "./css/images/team/b.jpg";
 import a from "./css/images/team/a.jpg";
 import "./css/Team.css";
 
 const Items = (props) => {
+
+  
+    
     return (
         <div id="card" style={{ background: "black", padding: "150pt 40pt", borderRadius: "0"}}>
             <Container>
@@ -21,6 +29,12 @@ const Items = (props) => {
 }
 
 const Team = () => {
+    const {view, inView} = useInView();
+    
+    useEffect(() => {
+        
+    })
+
     return (
         <>
         <br /><br /><br /><br /><br /><br /><br /><br />
@@ -53,8 +67,17 @@ const Team = () => {
             <Row>
             <Col md="7">
                 <Container className="mt-4" style={{borderRadius: "20pt"}}>
-                    <h1 className="display-6">What We Do</h1>
-                    <p className="">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here</p>
+                    <motion.h1 className="display-6"
+                        initial={{x:0}}
+                        animate={{x: 10}}
+                    >
+                        What We Do
+                    </motion.h1>
+                    <p className="mt-4"
+                        
+                    >
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here
+                    </p>
 
                 </Container>
                 <button className="butt mt-4">Design</button>

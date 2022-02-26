@@ -16,9 +16,8 @@ const Section = (props) => {
 
 const Footer = () => {
   return (
-    <div id="footer">
-
-      <div id="footer_content">
+    <>
+     <div id="footer_content">
         <Container id="container-fluid">
           <Row>
             <Col>
@@ -33,40 +32,47 @@ const Footer = () => {
         </Container>
       </div>
 
-      <div className="Footer" style={{ paddingTop: "0pt", paddingBottom: "70pt" }}>
-        <Container>
-          <Row>
+      <div id="footer">
 
-            <Col md="4" className="">
-              <h1 className="display-6 text-left">SAMPLE</h1>
-              <p>sit voluptatem accusantium<br /> doloremque laudantium</p>
-              <small>
-                <p>Daya Niwas, 137 S K Bole Road</p>
-                <p>+91 *******</p>
-              </small>
-            </Col>
+     
 
-            <Col md="2" className="">
-              <Section link="Events" link2="Contact" link3="Mentors" tag="Services" />
-            </Col>
+<div className="Footer" style={{padding: "130pt" }}>
+  <Container>
+    <Row>
 
-            <Col md="2" className="">
-              <Section link="Events" link2="Contact" link3="Mentors" tag="Products" />
-            </Col>
+      <Col md="4" className="">
+        <h1 className="display-6 text-left">SAMPLE</h1>
+        <p>sit voluptatem accusantium<br /> doloremque laudantium</p>
+        <small>
+          <p>Daya Niwas, 137 S K Bole Road</p>
+          <p>+91 *******</p>
+        </small>
+      </Col>
 
-            <Col md="2" className="">
-              <Section link="Events" link2="Contact" link3="Mentors" tag="Contact" />
-            </Col>
+      <Col md="2" className="">
+        <Section link="Events" link2="Contact" link3="Mentors" tag="Services" />
+      </Col>
+
+      <Col md="2" className="">
+        <Section link="Events" link2="Contact" link3="Mentors" tag="Products" />
+      </Col>
+
+      <Col md="2" className="">
+        <Section link="Events" link2="Contact" link3="Mentors" tag="Contact" />
+      </Col>
 
 
-          </Row>
-        </Container>
-      </div>
+    </Row>
+  </Container>
+</div>
 
-      <div className="footer_nav">
-        <a className="footerLink" href="#Footer">Copyright 2020</a>
-      </div>
-    </div>
+<div className="footer_nav">
+  <a className="footerLink" href="#Footer">Copyright 2020</a>
+</div>
+</div>
+
+    </>
+    
   );
 }
 

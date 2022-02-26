@@ -24,8 +24,13 @@ const Card = (props) => {
 }
 
 const Pricing = () => {
+    
+   
+    
     return ( 
-        <div className="pricing">
+
+       
+            <div className="pricing">
             <p className="blockquote-footer">Lorem ipsum dolor sit amet</p>
             <h1 className="display-4">Pricing Offers</h1>
 
@@ -45,6 +50,7 @@ const Pricing = () => {
                 </Row>
             </div>
         </div>
+        
      );
 }
  
